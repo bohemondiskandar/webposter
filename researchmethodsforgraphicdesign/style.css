@@ -235,6 +235,8 @@ h3 {
       text-align: left;
       break-inside: auto;
       word-wrap: break-word;
+      text-decoration: underline; /* Underline on hover */
+      color: black;
     }
 
   .scroll-button:hover {
@@ -323,7 +325,7 @@ h3 {
 .gallery-item {
   width: 100px;
   height: 100px;
-  margin: 10px;
+  margin: 0px;
   cursor: pointer;
 }
 
@@ -343,8 +345,8 @@ h3 {
 
 /* Full screen image */
 #fullScreenImg {
-  max-width: 40%;
-  max-height: 80%;
+  max-width: 70%;
+  max-height: 50%;
   cursor: pointer;
 }
     }
