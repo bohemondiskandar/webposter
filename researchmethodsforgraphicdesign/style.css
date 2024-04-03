@@ -208,12 +208,13 @@ body{
       font-size: 18px;
       text-align: left;
   }
+
   h2 {
     font-family:"Prociono";
     font-weight: lighter;
     font-size: 60px;
     text-align: left;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 h3 {
@@ -227,7 +228,7 @@ h3 {
   .scroll-button {
       background-color: transparent;
       border: none;
-      padding-top:-15px;
+      padding-top:0px;
       font-family:"Prociono";
       font-weight: lighter;
       font-size: 40px;
@@ -238,6 +239,7 @@ h3 {
 
   .scroll-button:hover {
       text-decoration: underline; /* Underline on hover */
+      color: black;
     }
 
 
