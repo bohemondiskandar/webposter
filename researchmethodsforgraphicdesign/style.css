@@ -215,13 +215,13 @@ h3 {
   font-size: 35px;
   text-align: left;
   margin-bottom: -10px;
+  word-break: break-all;
   
 }
 
   .scroll-button {
       background-color: transparent;
       border: none;
-
       padding-top:0px;
       padding-left: -50px;
       padding-right: -50px;
@@ -231,7 +231,7 @@ h3 {
       font-weight: lighter;
       font-size: 35px;
       text-align: left;
-      break-inside:avoid;
+      break-inside:auto;
       text-decoration: underline; 
       color: black;
       
@@ -256,6 +256,7 @@ h3 {
       margin: 0px; 
       width: 45px; 
       height: auto; 
+      word-break: break-all;
   }
 
   h4 {
