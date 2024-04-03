@@ -248,7 +248,7 @@ h3 {
   }
   .margin h3 {
       margin-top: 0px;
-      margin-bottom: -100px; 
+      margin-bottom: 0px; 
   }
 
   .text-with-image img {
