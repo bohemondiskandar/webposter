@@ -215,6 +215,7 @@ h3 {
   font-size: 35px;
   text-align: left;
   margin-bottom: -10px;
+  
 }
 
   .scroll-button {
@@ -224,8 +225,8 @@ h3 {
       padding-top:0px;
       padding-left: -50px;
       padding-right: -50px;
-      margin-right: -10px;
-      margin-left: -10px;
+      margin-right: -30px;
+      margin-left: -30px;
       font-family:"Prociono";
       font-weight: lighter;
       font-size: 35px;
@@ -233,6 +234,7 @@ h3 {
       break-inside:avoid;
       text-decoration: underline; 
       color: black;
+      
     }
 
   .scroll-button:hover {
