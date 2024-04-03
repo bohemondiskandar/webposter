@@ -37,17 +37,6 @@ body{
         padding-bottom: -15px;
     }
 
-    @media only screen and (max-width: 768px) {
-      /* For mobile phones: */
-      h2 {
-        font-family:"Prociono";
-        font-weight: lighter;
-        font-size: 60px;
-        text-align: left;
-        padding-top: 20px;
-        padding-bottom: -15px;
-    }
-      }
     }
 
     h3 {
@@ -180,3 +169,180 @@ body{
     cursor: pointer;
   }
   
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+.prociono-regular {
+  font-family: "Prociono", serif;
+  font-weight: 300;
+  font-style:normal;
+}
+
+body{
+  font-size: 15px;
+  background-color:rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+
+
+  
+      img{
+         width: 97%;
+         height: 97%;
+         object-fit: cover;
+      }
+
+  
+        
+  h1 {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight:lighter;
+      text-transform: uppercase;
+      font-size: 18px;
+      text-align: left;
+  }
+  h2 {
+    font-family:"Prociono";
+    font-weight: lighter;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+h3 {
+  padding-top:0px;
+  font-family:"Prociono";
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: left;
+}
+
+  .scroll-button {
+      background-color: transparent;
+      border: none;
+      padding-top:-15px;
+      font-family:"Prociono";
+      font-weight: lighter;
+      font-size: 40px;
+      text-align: left;
+      break-inside: auto;
+      word-wrap: break-word;
+    }
+
+  .scroll-button:hover {
+      text-decoration: underline; /* Underline on hover */
+    }
+
+
+  .margin h2 {
+      margin-bottom: 15px; 
+  }
+  .margin h3 {
+      margin-top: 0px;
+      margin-bottom: -50px; 
+  }
+
+  .text-with-image img {
+      vertical-align: middle; 
+      margin: 0px; 
+      width: 40px; 
+      height: auto; 
+  }
+
+  h4 {
+      font-size: 470px;
+      margin-top: -25px;
+      letter-spacing: 10px;
+      margin-bottom: -25px;
+      font-family:"Prociono";
+  }
+
+  h5 {
+      font-size: 335px;
+      margin-top: 50px;
+      letter-spacing: 10px;
+      margin-bottom: 0px;
+      font-family:"Prociono";
+  }
+
+  h6 {
+      font-size: 385px;
+      margin-top: 20px;
+      letter-spacing: 10px;
+      margin-bottom: -15px;
+      font-family:"Prociono";
+  }
+
+  a{
+      color:black;
+      text-decoration: none;
+  }
+  a:hover{
+      text-decoration-line:underline;
+      color: black;
+  }
+
+.show {
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal-line {
+  width: 100%; 
+  border-top: 6px solid #000; 
+  margin-top: 120px;
+  display: cen;
+}
+
+.speaker {
+  display:none;
+}
+
+
+/* Gallery container */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Gallery images */
+.gallery-item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Overlay for full screen */
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Full screen image */
+#fullScreenImg {
+  max-width: 40%;
+  max-height: 80%;
+  cursor: pointer;
+}
+    }
