@@ -256,22 +256,25 @@ h3 {
       letter-spacing: normal;
       margin-bottom: 0px;
       font-family:"Prociono";
+      text-align: center;
   }
 
   h5 {
-      font-size: 80px;
-      margin-top: 50px;
+      font-size: 85px;
+      margin-top: 0px;
       letter-spacing: normal;
       margin-bottom: 0px;
       font-family:"Prociono";
+      text-align: center;
   }
 
   h6 {
-      font-size: 90px;
-      margin-top: 20px;
+      font-size: 100px;
+      margin-top: 0px;
       letter-spacing: normal;
-      margin-bottom: -15px;
+      margin-bottom: 0px;
       font-family:"Prociono";
+      text-align: center;
   }
 
   a{
