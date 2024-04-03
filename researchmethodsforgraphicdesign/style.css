@@ -37,6 +37,19 @@ body{
         padding-bottom: -15px;
     }
 
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      h2 {
+        font-family:"Prociono";
+        font-weight: lighter;
+        font-size: 60px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: -15px;
+    }
+      }
+    }
+
     h3 {
         padding-top:-15px;
         font-family:"Prociono";
