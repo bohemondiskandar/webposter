@@ -227,15 +227,8 @@ h3 {
   word-break: break-all;
   
 }
-.button-container {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.button-wrapper {
-  margin-right: 10px; /* Adjust spacing between buttons */
-  margin-bottom: 10px; /* Adjust spacing between lines */
-}
+
 
 .scroll-button {
   background-color: transparent;
