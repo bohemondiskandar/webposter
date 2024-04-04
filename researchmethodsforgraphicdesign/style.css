@@ -434,7 +434,7 @@ h7 {
 .text-with-image img {
   vertical-align: middle; 
   margin: 0 10px; 
-  width: 45px; 
+  width: 25px; 
   height: auto; 
   word-break:keep-all;
 }
