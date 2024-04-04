@@ -262,7 +262,7 @@ h3 {
   text-align: left;
   text-decoration: underline;
   color: black;
-  word-break: break-all; /* Force line breaks */
+  word-break:keep-all;
 }
 
   .scroll-button:hover {
