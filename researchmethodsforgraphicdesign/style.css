@@ -182,7 +182,7 @@ body{
 
 
 
-  @media only screen and (min-width: 480px) {
+  @media only screen and (min-width: 480px) and (max-width: 1024px) {
     /* For mobile phones: */
 
     .prociono-regular {
@@ -230,7 +230,7 @@ body{
           padding-top:-15px;
           font-family:"Prociono";
           font-weight: lighter;
-          font-size: 57px;
+          font-size: 45px;
           text-align: left;
       }
   
@@ -238,20 +238,22 @@ body{
         padding-top:-15px;
         font-family:"Prociono";
         font-weight: lighter;
-        font-size: 57px;
+        font-size: 45px;
         text-align: left;
     }
   
       .scroll-button {
-          background-color: transparent;
-          border: none;
-          padding-top:-15px;
-          font-family:"Prociono";
-          font-weight: lighter;
-          font-size: 57px;
-          text-align: left;
-          break-inside: auto;
-          word-wrap: break-word;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        font-family: "Prociono";
+        font-weight: lighter;
+        font-size: 45px;
+        text-align: left;
+        text-decoration: underline;
+        color: black;
+        word-break:keep-all;
         }
   
       .scroll-button:hover {
@@ -275,7 +277,7 @@ body{
       }
   
       h4 {
-          font-size: 470px;
+          font-size: 200px;
           margin-top: -25px;
           letter-spacing: 10px;
           margin-bottom: -25px;
@@ -283,7 +285,7 @@ body{
       }
   
       h5 {
-          font-size: 335px;
+          font-size: 250px;
           margin-top: 50px;
           letter-spacing: 10px;
           margin-bottom: 0px;
@@ -291,7 +293,7 @@ body{
       }
   
       h6 {
-          font-size: 385px;
+          font-size: 250px;
           margin-top: 20px;
           letter-spacing: 10px;
           margin-bottom: -15px;
