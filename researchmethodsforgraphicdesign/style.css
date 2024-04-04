@@ -251,6 +251,7 @@ body{
         font-weight: lighter;
         font-size: 45px;
         text-align: left;
+        word-break:keep-all;
     }
   
       .scroll-button {
