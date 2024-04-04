@@ -225,6 +225,14 @@ body{
       }
   
       }
+
+      .text-with-image img {
+        vertical-align: middle; 
+        margin: 0 10px; 
+        width: 50px; 
+        height: auto; 
+        word-break:keep-all;
+    }
   
       h3 {
           padding-top:-15px;
@@ -232,6 +240,7 @@ body{
           font-weight: lighter;
           font-size: 45px;
           text-align: left;
+          word-break: break-all;
       }
   
       h7 {
@@ -269,15 +278,8 @@ body{
           margin-bottom: -50px; 
       }
   
-      .text-with-image img {
-          vertical-align: middle; 
-          margin: 0 10px; 
-          width: 65px; 
-          height: auto; 
-      }
-  
       h4 {
-          font-size: 200px;
+          font-size: 315px;
           margin-top: -25px;
           letter-spacing: 10px;
           margin-bottom: -25px;
@@ -286,7 +288,7 @@ body{
       }
   
       h5 {
-          font-size: 250px;
+          font-size: 220px;
           margin-top: 50px;
           letter-spacing: 10px;
           margin-bottom: 0px;
@@ -295,7 +297,7 @@ body{
       }
   
       h6 {
-          font-size: 250px;
+          font-size: 255px;
           margin-top: 20px;
           letter-spacing: 10px;
           margin-bottom: -15px;
@@ -364,7 +366,7 @@ body{
     
     /* Full screen image */
     #fullScreenImg {
-      max-width: 40%;
+      max-width: 60%;
       max-height: 80%;
       cursor: pointer;
     }
@@ -429,8 +431,8 @@ h7 {
 
 .text-with-image img {
   vertical-align: middle; 
-  margin: 0px; 
-  width: 25px; 
+  margin: 0 10px; 
+  width: 65px; 
   height: auto; 
   word-break:keep-all;
 }
