@@ -54,7 +54,7 @@ body{
       font-weight: lighter;
       font-size: 57px;
       text-align: left;
-      word-break: break-all;
+      word-break:keep-all;
   }
 
     .scroll-button {
