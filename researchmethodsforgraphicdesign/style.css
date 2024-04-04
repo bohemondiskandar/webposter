@@ -235,7 +235,7 @@ h7 {
   margin: 0px; 
   width: 45px; 
   height: auto; 
-  word-break: break-all;
+  word-break:keep-all;
 }
 
 h3 {
