@@ -282,6 +282,7 @@ body{
           letter-spacing: 10px;
           margin-bottom: -25px;
           font-family:"Prociono";
+          text-align: center;
       }
   
       h5 {
@@ -290,6 +291,7 @@ body{
           letter-spacing: 10px;
           margin-bottom: 0px;
           font-family:"Prociono";
+          text-align: center;
       }
   
       h6 {
@@ -298,6 +300,7 @@ body{
           letter-spacing: 10px;
           margin-bottom: -15px;
           font-family:"Prociono";
+          text-align: center;
       }
   
       a{
@@ -427,7 +430,7 @@ h7 {
 .text-with-image img {
   vertical-align: middle; 
   margin: 0px; 
-  width: 45px; 
+  width: 25px; 
   height: auto; 
   word-break:keep-all;
 }
