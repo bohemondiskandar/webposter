@@ -167,7 +167,10 @@
 
   @media only screen and (max-width: 500px) {
 
-    background-color: blue;
+
+    h2 {
+        display: none;
+    }
 
     .scroll-button {
         background-color: transparent;
@@ -183,5 +186,38 @@
         text-decoration: underline;
         color: black;
       }
+
+      .text-with-image img {
+        vertical-align: middle; 
+        margin: 0.20vh; 
+        width: 6vw; 
+        height: auto; 
+    }
+
+
+    h3 {
+        font-family:"Prociono";
+        font-weight: lighter;
+        text-align: left;
+        padding:0;
+        margin:0;
+        word-break: break-all;
+        box-sizing:border-box;
+        font-size:6vw;
+        padding-left:0.25em;
+        padding-right:0.25em;
+    }
+
+    h2 {
+        font-family:"Prociono";
+        font-weight: lighter;
+        text-align: left;
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+        font-size:6vw;
+    }
+
+
 
   }
