@@ -224,6 +224,14 @@
         height:1vw;
     }
 
+    #fullScreenImg {
+        max-width: 50%;
+        max-height: 90%;
+        cursor: pointer;
+        width: 100%; 
+        height: auto; 
+      }
+
 
 
   }
