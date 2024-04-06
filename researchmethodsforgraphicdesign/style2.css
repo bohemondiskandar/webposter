@@ -169,4 +169,19 @@
 
     background-color: blue;
 
+    .scroll-button {
+        background-color: transparent;
+        border: none;
+        padding-top:-15px;
+        font-family:"Prociono";
+        font-weight: lighter;
+        font-size:6vh;
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+        text-align: left;
+        text-decoration: underline;
+        color: black;
+      }
+
   }
