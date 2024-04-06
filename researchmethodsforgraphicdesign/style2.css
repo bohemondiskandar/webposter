@@ -218,6 +218,12 @@
         font-size:6vh;
     }
 
+    .bar {
+        background:black;
+        margin-top: 9vh;
+        height:1vw;
+    }
+
 
 
   }
