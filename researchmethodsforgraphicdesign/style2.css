@@ -21,19 +21,15 @@
                object-fit: cover;
             }
     
-        
     
-        h3 {
+     h1 {
             font-family:"Prociono";
             font-weight: lighter;
             text-align: left;
             padding:0;
             margin:0;
-            word-break: break-all;
             box-sizing:border-box;
             font-size:3.75vw;
-            padding-left:0.25em;
-            padding-right:0.25em;
         }
     
         h2 {
@@ -46,15 +42,19 @@
             font-size:3.75vw;
         }
 
-        h1 {
+        h3 {
             font-family:"Prociono";
             font-weight: lighter;
             text-align: left;
             padding:0;
             margin:0;
+            word-break: break-all;
             box-sizing:border-box;
             font-size:3.75vw;
+            padding-left:0.25em;
+            padding-right:0.25em;
         }
+
         
         .margin h3 {
           margin-top: 0px;
@@ -158,13 +158,6 @@
     }
 
 
-
-
-
-
-
-
-
   @media only screen and (max-width: 500px) {
 
 
@@ -237,8 +230,6 @@
   }
 
 
-
-
 @media only screen and (min-width: 500px) and (max-width: 900px) {
 
 
@@ -275,7 +266,15 @@
         font-size:4.6vw;
         word-break: break-all;
     }
-
+    
+    h2 {
+        font-family:"Prociono";
+        font-weight: lighter;
+        text-align: left;
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+    }
 
     h3 {
         font-family:"Prociono";
@@ -288,15 +287,6 @@
         font-size:4.6vw;
         padding-left:0.25em;
         padding-right:0.25em;
-    }
-
-    h2 {
-        font-family:"Prociono";
-        font-weight: lighter;
-        text-align: left;
-        padding:0;
-        margin:0;
-        box-sizing:border-box;
     }
 
     .bar {
